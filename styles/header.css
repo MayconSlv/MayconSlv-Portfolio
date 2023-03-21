@@ -22,6 +22,7 @@
 
 .nav__list {
   display: flex;
+  justify-content: space-between;
   gap: 3rem;
 }
 
@@ -52,6 +53,7 @@
     height: 6rem;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
+    padding: 0 2rem;
   }
 
   .nav__logo {
@@ -59,8 +61,8 @@
   }
 
   .nav__list {
-    justify-content: space-between;
     width: 100%;
+    gap: 1.5rem;
   }
 
   .nav__icon {
