@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  background: #fff;
+}
+
+.nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav__link {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 750px) {
+  .nav {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    position: absolute;
+    bottom: 0;
+    height: 3rem;
+    box-shadow: 0 -1px 12px rgba(59, 59, 59, .25);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+
+  .nav__logo {
+    display: none;
+  }
+
+  .nav {
+    justify-content: space-around;
+    width: 100%;
+  }
+}
