@@ -63,14 +63,18 @@
   .nav__list {
     width: 100%;
     gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .nav__icon {
     display: block;
-    height: 2rem;
+    height: 3.5rem;
   }
 
-  .nav__link {
-    font-size: 1.4rem;
+  .nav__listitem .nav__link {
+    font-size: 1rem;
+    margin-top: 0;
+    gap: 0;
   }
 }
