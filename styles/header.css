@@ -2,9 +2,11 @@
   width: 100%;
   display: flex;
   background: #fff;
-  box-shadow: 0 -1px 12px rgba(59, 59, 59, .25);
+  box-shadow: 0 -1px 12px rgba(59, 59, 59, 0.25);
   height: 6rem;
   padding: 0 4rem;
+  position: fixed;
+  top: 0;
 }
 
 .nav {
@@ -32,10 +34,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
   color: #1b1b1b;
   position: relative;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .nav__link:hover {
@@ -49,6 +51,7 @@
 @media screen and (max-width: 700px) {
   .header {
     position: fixed;
+    top: initial;
     bottom: 0;
     left: 0;
     height: 6rem;
