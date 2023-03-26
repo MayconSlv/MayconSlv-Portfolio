@@ -1,0 +1,44 @@
+#home {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home__container-title {
+  font-size: 3.5rem;
+  color: #1c1c1b;
+  margin-bottom: 2rem;
+}
+
+.home__container-text {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  letter-spacing: 0.3rem;
+  color: #676767;
+}
+
+.home__image {
+  width: 500px;
+}
+
+.home__container-list {
+  display: flex;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+
+.home__phone {
+  color: #676767;
+  font-style: italic;
+  position: relative;
+}
+
+.home__phone::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 250px;
+  background-color: #1c1c1b;
+  bottom: -32px;
+  border-radius: 999px;
+}
