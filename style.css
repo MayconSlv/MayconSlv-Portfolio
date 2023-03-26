@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
-@import url('./styles/header.css');
+@import url("./styles/home.css");
+@import url("./styles/header.css");
 
 * {
   margin: 0;
@@ -19,8 +20,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
-  background-color: #fafafa;  
+  font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
 }
 
 ul {
@@ -31,7 +32,6 @@ a {
   text-decoration: none;
 }
 
-
 /* =====estilo temporario===== */
 
 section {
@@ -39,9 +39,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #1b1b1b;
 }
