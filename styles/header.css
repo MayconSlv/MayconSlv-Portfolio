@@ -45,7 +45,7 @@
   color: #348fad;
 }
 
-.nav__icon {
+.nav__list .nav__listitem .nav__link .nav__icon {
   display: none;
 }
 
@@ -72,14 +72,12 @@
     grid-template-columns: repeat(5, 1fr);
   }
 
-  .nav__icon {
+  .nav__list .nav__listitem .nav__link .nav__icon {
     display: block;
-    height: 3.5rem;
+    font-size: 2.5rem;
   }
 
-  .nav__listitem .nav__link {
-    font-size: 1rem;
-    margin-top: 0;
-    gap: 0;
+  .nav__listitem .nav__link span {
+    display: none;
   }
 }
