@@ -49,7 +49,7 @@
   display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .header {
     position: fixed;
     top: initial;

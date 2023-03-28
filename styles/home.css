@@ -4,6 +4,9 @@
   gap: 2rem;
 }
 
+.home__container {
+}
+
 .home__container-title {
   font-size: 3.5rem;
   color: #1c1c1b;
@@ -18,7 +21,7 @@
 }
 
 .home__image {
-  width: 500px;
+  width: calc(100% - 50%);
 }
 
 .home__container-list {
@@ -49,6 +52,11 @@
   position: relative;
 }
 
+.home__phone-icon {
+  font-size: 2.2rem;
+  padding: 1rem;
+}
+
 .home__phone::before {
   content: "";
   position: absolute;
@@ -59,8 +67,12 @@
   border-radius: 999px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   #home {
     flex-direction: column-reverse;
+  }
+
+  .home__image {
+    width: 100%;
   }
 }
