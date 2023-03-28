@@ -32,6 +32,17 @@ a {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #777775;
+  border-radius: 999px;
+}
+
 /* =====estilo temporario===== */
 
 section {

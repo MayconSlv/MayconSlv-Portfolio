@@ -4,9 +4,6 @@
   gap: 2rem;
 }
 
-.home__container {
-}
-
 .home__container-title {
   font-size: 3.5rem;
   color: #1c1c1b;
@@ -50,9 +47,12 @@
   color: #676767;
   font-style: italic;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .home__phone-icon {
+  line-height: 0;
   font-size: 2.2rem;
   padding: 1rem;
 }
