@@ -72,3 +72,9 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media screen and (max-width: 750px) {
+  #skills {
+    margin-top: 15rem;
+  }
+}
