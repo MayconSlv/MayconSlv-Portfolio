@@ -75,6 +75,8 @@
   .nav__list .nav__listitem .nav__link .nav__icon {
     display: block;
     font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 999px;
   }
 
   .nav__listitem .nav__link span {
