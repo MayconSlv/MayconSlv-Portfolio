@@ -78,3 +78,9 @@
     margin-top: 15rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+}
