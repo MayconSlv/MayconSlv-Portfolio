@@ -5,12 +5,13 @@
 
 .skills__title h2 {
   color: #1c1c1b;
-  font-size: 2.2rem;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .skills__title p {
   color: #676767;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -55,6 +56,7 @@
 }
 
 .skill__card p {
+  color: #676767;
   text-align: center;
   line-height: 1.6;
 }
