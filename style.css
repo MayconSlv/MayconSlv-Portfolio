@@ -3,6 +3,7 @@
 @import url("./styles/home.css");
 @import url("./styles/header.css");
 @import url("./styles/skills.css");
+@import url("./styles/projetos.css");
 
 * {
   margin: 0;

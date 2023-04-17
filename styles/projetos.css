@@ -1,0 +1,29 @@
+.projetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projetos__wrapper {
+  max-width: 1120px;
+}
+
+.projeto__card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.projeto__card img {
+  width: 320px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.projeto__card .card__description {
+  padding: 5px 10px;
+}
+
+.card__description .nome {
+  font-size: 14px;
+}
