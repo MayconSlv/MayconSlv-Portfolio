@@ -1,29 +1,45 @@
-.projetos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.projetos-container {
+  max-width: 900px;
+  width: 100%;
 }
 
-.projetos__wrapper {
-  max-width: 1120px;
+.swiper {
+  padding: 2rem;
 }
 
-.projeto__card {
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.card {
+  width: 412px;
+  background: #fff;
   border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.projeto__card img {
-  width: 320px;
-  object-fit: cover;
+.card-image img {
+  width: 100%;
   border-radius: 8px 8px 0 0;
 }
 
-.projeto__card .card__description {
-  padding: 5px 10px;
+.card-details {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.card__description .nome {
-  font-size: 14px;
+.card-details a,
+.card-details strong {
+  color: #1c1c1b;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.4rem;
+}
+
+.card-details a i,
+.card-details strong i {
+  font-size: 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1c1c1b;
 }
