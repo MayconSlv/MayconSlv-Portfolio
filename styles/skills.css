@@ -52,3 +52,26 @@
   color: #8a8a8a;
   margin-left: 2rem;
 }
+
+@media screen and (max-width: 570px) {
+  .skills-container .skills-card {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #skills {
+    width: 100%;
+    margin-top: 8rem;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .skills-container .skills-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
